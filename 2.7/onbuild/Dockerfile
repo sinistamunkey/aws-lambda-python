@@ -1,6 +1,5 @@
 FROM python:2.7-slim
 
-ENV STYSTM_ENVIRON dev
 ENV PYTHONPATH /app/src
 
 RUN apt-get -y update && \
