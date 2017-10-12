@@ -1,12 +1,6 @@
 version: '2'
 services:
 
-  2.7-slim:
-    build:
-      dockerfile: Dockerfile
-      context: ./2.7/slim/
-    encrypted_dockercfg_path: dockercfg.encrypted
-
   2.7-onbuild:
     build:
       dockerfile: Dockerfile

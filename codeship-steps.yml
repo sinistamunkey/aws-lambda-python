@@ -1,18 +1,10 @@
 - type: parallel
   steps:
 
-    - name: 'Push image: 2.7-slim'
-      service: 2.7-slim
-      type: push
-      tag: master
-      image_tag: '2.7-slim'
-      image_name: storystream/aws-lambda-python
-      encrypted_dockercfg_path: dockercfg.encrypted
-
     - name: 'Push image: 2.7-onbuild'
       service: 2.7-onbuild
       type: push
       tag: master
       image_tag: '2.7-onbuild'
-      image_name: storystream/aws-lambda-python
+      image_name: sinistamunkey/aws-lambda-python
       encrypted_dockercfg_path: dockercfg.encrypted
