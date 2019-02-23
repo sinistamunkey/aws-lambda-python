@@ -1,0 +1,1 @@
+FROM sinistamunkey/aws-lambda-python:3.7-onbuild
