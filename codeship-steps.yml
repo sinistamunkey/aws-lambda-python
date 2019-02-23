@@ -4,7 +4,7 @@
     - name: 'Push image: 2.7-onbuild'
       service: 2.7-onbuild
       type: push
-      tag: master
+      # tag: master
       image_tag: '2.7-onbuild'
       image_name: sinistamunkey/aws-lambda-python
       encrypted_dockercfg_path: dockercfg.encrypted
@@ -12,7 +12,7 @@
     - name: 'Push image: 3.7-onbuild'
       service: 3.7-onbuild
       type: push
-      tag: master
+      # tag: master
       image_tag: '3.7-onbuild'
       image_name: sinistamunkey/aws-lambda-python
       encrypted_dockercfg_path: dockercfg.encrypted
