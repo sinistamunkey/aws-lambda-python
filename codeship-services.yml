@@ -6,3 +6,9 @@ services:
       dockerfile: Dockerfile
       context: ./2.7/onbuild/
     encrypted_dockercfg_path: dockercfg.encrypted
+
+  3.7-onbuild:
+    build:
+      dockerfile: Dockerfile
+      context: ./3.7/onbuild/
+    encrypted_dockercfg_path: dockercfg.encrypted
